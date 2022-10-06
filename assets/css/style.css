@@ -24,6 +24,12 @@ body {
   cursor: pointer;
 }
 
+
+.list__item__header:hover {
+opacity: 0.6;
+color: rgb(50, 112, 75);
+}
+
 .list__item__artist {
   font-size: 10px;
   white-space: nowrap;
@@ -31,4 +37,23 @@ body {
 
 .list__item__body {
   display: none;
+  
+}
+
+.on{
+  font-size: 10px;
+  background-color: white;
+  max-width: 49vw;
+  display: block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+.list__item__body.show {
+  display: block;
 }
